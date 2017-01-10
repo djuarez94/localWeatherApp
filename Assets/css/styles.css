@@ -1,0 +1,26 @@
+body {
+	background-color: rgba(0, 0, 0, 0);
+}
+
+html {	
+	background: url('https://cdn.cloudpix.co/images/sunny/sunny-day-wallpaper-weather-67eb048e101364cb35a5e03504acb949-large-533645.jpg') no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover; 
+}
+
+.weather {
+	background-color: rgba(255, 255, 255, 0.4);
+	box-shadow: 0px 3px 2px #0F1157;
+	padding: 1.5em;
+	margin-top: 3em;
+	margin-bottom: 15em;
+	margin-right: 20em;
+	margin-left: 20em;
+	border: solid #fff .5px;
+}
+
+span {
+	color: #393CA8;
+}

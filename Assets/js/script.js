@@ -6,9 +6,9 @@ $( document ).ready(function() {
         var query_param = $(this).prev().val();
 
         if ($(this).prev().attr("placeholder") == "City, State") {
-            var weather = "https://api.openweathermap.org/data/2.5/weather?q=" + query_param + "&units=imperial&APPID=" + appID;
+            var weather = "http://api.openweathermap.org/data/2.5/weather?q=" + query_param + "&units=imperial&APPID=" + appID;
         } else if ($(this).prev().attr("placeholder") == "Zip Code") {
-            var weather = "https://api.openweathermap.org/data/2.5/weather?zip=" + query_param + "&units=imperial&APPID=" + appID;
+            var weather = "http://api.openweathermap.org/data/2.5/weather?zip=" + query_param + "&units=imperial&APPID=" + appID;
         }
 
         $.getJSON(weather,function(json){
